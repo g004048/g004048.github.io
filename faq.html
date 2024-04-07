@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>FAQ </title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/faq.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+        </ul>
+    </nav>
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+    <h2 class="text-light">Frequently Answered Questions</h2>
+
+    <button class="accordion">How do I order clothes on your website?</button>
+    <div class="panel">
+      <p>You can browse and order clothes directly on our website. Just add items to your cart and check out.</p> 
+    </div>
+    
+    <button class="accordion">What sizes do you offer?</button>
+    <div class="panel">
+      <p>We offer sizes XS-XL for women and S-XXL for men. Specific sizing charts are available on each product page.</p>
+    </div>
+    
+    <button class="accordion">What materials are your clothes made from?</button>
+    <div class="panel">
+      <p>Our clothes are made from high quality natural fabrics like cotton, linen, and silk. Specific fabric contents are listed on each product page.</p>
+    </div>
+    
+    <button class="accordion">What is your return policy?</button>
+    <div class="panel">
+      <p>If you are not fully satisfied with your purchase, you can return it within 30 days for a full refund. See our returns page for more details.</p>
+    </div>
+    <button class="accordion">How long does shipping take?</button>
+    <div class="panel">
+      <p>Shipping times vary depending on your location. Most orders are delivered within 3-5 business days.</p>
+    </div>
+
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">AlexVV.</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                <p>
+                  Shop the latest fashion and trends in clothing, shoes and accessories for women, men and kids.
+                </p>
+    
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Collections</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                <p>
+                  <a href="#!" class="text-white">Women</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Men</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">New Arrivals</a>
+                </p>
+    
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Help</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                <p>
+                  <a href="#!" class="text-white">FAQ</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Shipping</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Returns</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Contact Us</a>
+                </p>
+    
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                <p><i class="fas fa-home mr-3"></i> Galway</p>
+                <p><i class="fas fa-phone mr-3"></i>086 459 0116</p>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+        </section>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2024 Copyright:
+          <a class="text-white" href="https://alexvv.me/">AlexVV.com</a>
+        </div>
+    
+      </footer>
+    
+    </div>
+  
+  </body>
+  
+  </html>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>

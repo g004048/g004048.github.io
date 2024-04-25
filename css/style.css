@@ -51,7 +51,7 @@ nav ul li a {
 
 /* Home page */
 .hero-image {
-  background-image: url("hero.jpg");
+  background-image: url("home.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;

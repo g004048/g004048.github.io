@@ -79,12 +79,6 @@ h1{
   align-items: center;
   justify-content: space-around;
 }
-.text {
-  width: 540px;
-color: white;
-}
-.text h2 {
-  color: #333;
   font-size: 90px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -92,7 +86,6 @@ font-family: 'Luckiest Guy', cursive;
     color: white;
 }
 .text h5 {
-  color: #333;
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -103,7 +96,6 @@ span {
   color: #4070f4;
 }
 .text p {
-  color: #333;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 1px;

@@ -70,3 +70,30 @@ function generateClothingHTML() {
 
 // Call the function to generate HTML
 generateClothingHTML();
+
+// Function to generate HTML for cart items
+function generateCartHTML() {
+    const cartContainer = document.getElementById('cart-items');
+
+    // Clear existing cart items
+    cartContainer.innerHTML = '';
+
+    cartItems.forEach((item, index) => {
+        const cartItem = document.createElement('div');
+        cartItem.className = 'cart-item';
+
+        const title = document.createElement('h5');
+        title.textContent = item.title;
+
+        const price = document.createElement('p');
+        price.textContent = item.price;
+
+        cartItem.appendChild(title);
+        cartItem.appendChild(price);
+
+        cartContainer.appendChild(cartItem);
+    });
+}
+
+// Call the function to generate HTML for cart items
+generateCartHTML();

@@ -81,6 +81,7 @@ h1{
 }
 .text {
   width: 540px;
+color: white;
 }
 .text h2 {
   color: #333;
@@ -88,6 +89,7 @@ h1{
   font-weight: 600;
   margin-bottom: 10px;
 font-family: 'Luckiest Guy', cursive;
+    color: white;
 }
 .text h5 {
   color: #333;
@@ -95,6 +97,7 @@ font-family: 'Luckiest Guy', cursive;
   font-weight: 500;
   margin-bottom: 20px;
 font-family: 'Luckiest Guy', cursive;
+    color: white;
 }
 span {
   color: #4070f4;
@@ -104,5 +107,6 @@ span {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 1px;
+    color: white;
 }
 

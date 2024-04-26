@@ -129,3 +129,4 @@ const clothingData = [
     }
 
     generateCartHTML();
+    });

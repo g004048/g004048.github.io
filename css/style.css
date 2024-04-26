@@ -80,20 +80,23 @@ h1{
   justify-content: space-around;
 }
 
+
 .text h2
-  font-size: 90px;
-  font-weight: 600;
-  margin-bottom: 10px;
+font-size: 90px;
+font-weight: 600;
+margin-bottom: 10px;
 font-family: 'Luckiest Guy', cursive;
-    color: white;
+color: white;
 }
+
 .text h5 {
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 20px;
+font-size: 22px;
+font-weight: 500;
+margin-bottom: 20px;
 font-family: 'Luckiest Guy', cursive;
-    color: white;
+color: white;
 }
+
 span {
   color: #4070f4;
 }

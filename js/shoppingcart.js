@@ -1,3 +1,42 @@
+const clothingData = [
+    {
+        imgSrc: "Clothing_one.jpg",
+        title: "Frenchie Bling Hoodie",
+        description: "Discover the latest trends in men's fashion with our quality t-shirt. Perfect for both formal and casual occasions, this versatile piece will elevate your style effortlessly.",
+        price: "€75"
+    },
+    {
+        imgSrc: "Clothing_two.jpg",
+        title: "Most Slept on T-shirt",
+        description: "Discover the latest trends in men's fashion with our quality t-shirt. Perfect for both formal and casual occasions, this versatile piece will elevate your style effortlessly.",
+        price: "€85"
+    },
+    {
+        imgSrc: "Clothing_three.jpg",
+        title: "Force T-Shirt",
+        description: "Discover the latest trends in men's fashion with our quality t-shirt. Perfect for both formal and casual occasions, this versatile piece will elevate your style effortlessly.",
+        price: "€70"
+    },
+    {
+        imgSrc: "Clothing_four.jpg",
+        title: "Black Cargo Jeans",
+        description: "Discover the latest trends in men's fashion with our quality t-shirt. Perfect for both formal and casual occasions, this versatile piece will elevate your style effortlessly.",
+        price: "€90"
+    },
+    {
+        imgSrc: "Clothing_five.jpg",
+        title: "Almost Healed T-Shirt",
+        description: "Discover the latest trends in men's fashion with our quality t-shirt. Perfect for both formal and casual occasions, this versatile piece will elevate your style effortlessly.",
+        price: "€70"
+    },
+    {
+        imgSrc: "Shoes.jpg",
+        title: "Air Jordan 4s",
+        description: "Discover the latest trends in men's fashion with our quality t-shirt. Perfect for both formal and casual occasions, this versatile piece will elevate your style effortlessly.",
+        price: "€185"
+    }
+];
+
 // Define a global variable to store cart items
 let cartItems = [];
 
@@ -15,7 +54,7 @@ function updateCart() {
 
 // Function to generate HTML for clothing items
 function generateClothingHTML() {
-    const container = document.querySelector('.row.row-cols-1.row-cols-md-3.g-4.py-5');
+    const container = document.getElementById('clothing-items');
 
     clothingData.forEach((item, index) => {
         const col = document.createElement('div');
@@ -68,7 +107,7 @@ function generateClothingHTML() {
     });
 }
 
-// Call the function to generate HTML
+// Call the function to generate HTML for clothing items
 generateClothingHTML();
 
 // Function to generate HTML for cart items
